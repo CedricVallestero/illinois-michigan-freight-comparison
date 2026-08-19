@@ -98,3 +98,5 @@ With Illinois being closer to the center of the US while Michigan is closer to t
 
 ## Tools Used
 PostgreSQL, SQL, Power BI
+
+Note: This project was completed with the assistance of Claude (Anthropic) as a learning and pair-programming tool. All queries, analytical decisions, and interpretations were reviewed, tested, and verified by me.

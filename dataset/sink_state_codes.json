@@ -1,0 +1,17 @@
+{
+	"name": "sink_state_codes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinked1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "state_codes"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

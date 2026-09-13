@@ -1,0 +1,17 @@
+{
+	"name": "sink_commodity_codes",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinked1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "commodity_codes"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

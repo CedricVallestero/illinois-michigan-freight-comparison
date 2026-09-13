@@ -1,0 +1,69 @@
+{
+	"name": "source_freight_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinked1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "faf_freight_data.csv",
+				"container": "freightdatacontainer"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "fr_orig",
+				"type": "String"
+			},
+			{
+				"name": "dms_origst",
+				"type": "String"
+			},
+			{
+				"name": "dms_destst",
+				"type": "String"
+			},
+			{
+				"name": "fr_dest",
+				"type": "String"
+			},
+			{
+				"name": "fr_inmode",
+				"type": "String"
+			},
+			{
+				"name": "dms_mode",
+				"type": "String"
+			},
+			{
+				"name": "fr_outmode",
+				"type": "String"
+			},
+			{
+				"name": "sctg2",
+				"type": "String"
+			},
+			{
+				"name": "trade_type",
+				"type": "String"
+			},
+			{
+				"name": "tons_2022",
+				"type": "String"
+			},
+			{
+				"name": "value_2022",
+				"type": "String"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

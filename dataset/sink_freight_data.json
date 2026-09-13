@@ -1,0 +1,17 @@
+{
+	"name": "sink_freight_data",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabaseLinked1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "freight_data"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

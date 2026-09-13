@@ -1,0 +1,15 @@
+{
+	"name": "Freight-Data-Factory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a970585a-cfe9-4ce4-b9ab-5b0d7d0bb62d",
+		"tenantId": "360b39cf-7e0e-49e9-bb88-507ec7e6231d"
+	}
+}

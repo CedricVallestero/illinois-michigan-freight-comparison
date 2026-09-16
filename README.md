@@ -97,7 +97,7 @@ How involved are Illinois and Michigan across the three trade types (Domestic be
 With Illinois being closer to the center of the US while Michigan is closer to the US/Canada border, I would get an opportunity to see if either state skews more towards domestic or international trade.
 
 ## Tools Used
-PostgreSQL, SQL, Power BI
+PostgreSQL, SQL, Power BI, Azure Data Factory, Azure SQL Database
 
 Note: This project was completed with the assistance of Claude (Anthropic) as a learning and pair-programming tool. All queries, analytical decisions, and interpretations were reviewed, tested, and verified by me.
 
